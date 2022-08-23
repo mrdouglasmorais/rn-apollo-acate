@@ -6,7 +6,9 @@ import {
 
 import styles from './style';
 
-export default function Card({card} : any){
+import { IProps } from '../../type'
+
+export default function Card({card}: IProps){
   return(
     <View
       style={styles.card}
